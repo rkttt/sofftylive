@@ -1,0 +1,128 @@
+{
+  "name": "Soffty LIVE - Go Live, Be Famous!",
+  "short_name": "Soffty LIVE",
+  "description": "Soffty LIVE - Go Live, Be Famous! India's First Desi Live Super App. Soffty Pillow AI, Organisation Chart, Triple Tadka Hindi Bhojpuri Punjabi, Kannada Rajasthani Dhamaka. Old Is Gold!",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#000000",
+  "theme_color": "#ff1493",
+  "lang": "en",
+  "categories": [
+    "entertainment",
+    "social",
+    "lifestyle",
+    "music",
+    "video"
+  ],
+  "icons": [
+    {
+      "src": "/soffty_transparent_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/soffty_transparent_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/soffty_live_transparent.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Organisation Chart",
+      "short_name": "Team",
+      "description": "Meet Our Team - Organisation Chart",
+      "url": "/organisation-chart.html",
+      "icons": [
+        {
+          "src": "/soffty_transparent_192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Go Live",
+      "short_name": "Live",
+      "description": "Go Live, Be Famous!",
+      "url": "/live",
+      "icons": [
+        {
+          "src": "/soffty_transparent_192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Soffty Pillow AI",
+      "short_name": "Pillow",
+      "description": "Talk to Soffty Pillow - AI Assistant for Soffty LIVE - Soft & Helpful!",
+      "url": "/?pillow=open",
+      "icons": [
+        {
+          "src": "/soffty_transparent_192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Triple Tadka",
+      "short_name": "Tadka",
+      "description": "Hindi Bhojpuri Punjabi 60 Sec Triple Dhamaka",
+      "url": "/triple-tadka.html",
+      "icons": [
+        {
+          "src": "/soffty_transparent_192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "launch_handler": {
+    "client_mode": [
+      "focus-existing",
+      "auto"
+    ]
+  },
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Soffty LIVE Go Live Studio"
+    },
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Soffty LIVE Desktop"
+    }
+  ],
+  "id": "/",
+  "handle_links": "preferred",
+  "share_target": {
+    "action": "/share",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
